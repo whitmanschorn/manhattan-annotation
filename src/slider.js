@@ -15,8 +15,8 @@ export class Slider extends React.Component {
 
     render () {
         return (
-         <span style={{paddingLeft: 20}}>
-            <b>{this.props.label}</b>
+         <span style={{padding: 20}}>
+            <b>{this.props.label} </b>
              <NumberEditor min={this.props.min} max={this.props.max} step={this.props.step} decimals={2} value={this.props.value} onValueChange={this.props.onValueChange} />
          </span>
          )
